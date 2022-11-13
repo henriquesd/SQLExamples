@@ -1,0 +1,6 @@
+CREATE TYPE ProductType AS TABLE (
+	Id INT NOT NULL,
+	Name NVARCHAR(100) NULL,
+	Description NVARCHAR(200) NULL,
+	PRIMARY KEY(Id)
+);
